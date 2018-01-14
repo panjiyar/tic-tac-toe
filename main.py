@@ -13,7 +13,7 @@ def printgrid(grid):
 		print i
 
 
-def getNum(isItRow):	
+def getNum(isItRow):
 	row = 0 
 	while True:
 		key_word = "row" if isItRow else "col"
@@ -149,4 +149,6 @@ def main():
 	elif option == '2':
 		TwoPlayerMain()
 
-OnePlayerMain()
+
+if __name__ == '__main__':
+	main()
